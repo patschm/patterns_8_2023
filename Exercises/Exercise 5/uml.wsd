@@ -1,0 +1,38 @@
+@startuml
+class Beverage 
+{
+    +Topping Topping
+    +Syrup Syrup *--> Syrup
+    +Sweetener Sweetener
+    +Sauce Sauce
+    +Creamer Creamer
+    +float Price
+    +void Brew()    
+}
+Beverage *-- Topping
+Beverage *-- Syrup
+Beverage *-- Sweetener
+Beverage *-- Sauce
+Beverage *-- Creamer
+class Topping {}
+class CaramelCrunch extends Topping {}
+class ChocolateMint extends Topping {}
+class Syrup {}
+class Caramel extends Syrup {}
+class Hazelnut extends Syrup {}
+class ToffeeNut extends Syrup {}
+class Vanilla extends Syrup {}
+class Sauce {}
+class DarkCaramel extends Sauce {}
+class Mocha extends Sauce {}
+class WhiteChocolate extends Sauce {}
+class Sweetener {}
+class Honey extends Sweetener {}
+class Stevia extends Sweetener {}
+class Sugar extends Sweetener {}
+class Creamer {}
+class Milk extends Creamer {}
+class SoyMilk extends Creamer {}
+class OatMilk extends Creamer {}
+
+@enduml

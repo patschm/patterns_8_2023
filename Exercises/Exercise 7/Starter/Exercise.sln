@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Media", "Media\Media.csproj", "{274592D3-8E1A-40C3-BE6C-E84F4D7BEDA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleMedia", "ConsoleMedia\ConsoleMedia.csproj", "{6A3044DC-5B9E-4B6E-B67A-EB1F0C80EF20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{274592D3-8E1A-40C3-BE6C-E84F4D7BEDA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{274592D3-8E1A-40C3-BE6C-E84F4D7BEDA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{274592D3-8E1A-40C3-BE6C-E84F4D7BEDA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{274592D3-8E1A-40C3-BE6C-E84F4D7BEDA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A3044DC-5B9E-4B6E-B67A-EB1F0C80EF20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A3044DC-5B9E-4B6E-B67A-EB1F0C80EF20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A3044DC-5B9E-4B6E-B67A-EB1F0C80EF20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A3044DC-5B9E-4B6E-B67A-EB1F0C80EF20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABA84071-09EF-456C-9238-181094991FD6}
+	EndGlobalSection
+EndGlobal
